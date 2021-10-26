@@ -130,7 +130,7 @@ header nav a {
 #media {
   padding: 100px 0;
   background-image: url('/img/original.jpg');
-  background-size: cover;
+  background-size: contain;
 }
 
 #media .title {
@@ -298,6 +298,14 @@ header nav a {
   #bio .container {
     flex-direction: column-reverse;
     align-items: center;
+  }
+
+  #bio .container p {
+    width: 80%;
+  }
+
+  #bio .container .logo-centered img {
+    margin-bottom: 20px;
   }
 }
 
